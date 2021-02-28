@@ -1,0 +1,14 @@
+.mainErro {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.mainErro img {
+  width: 50%;
+}
+.mainErro h1 {
+  color: #fff;
+  font-size: 2em;
+}

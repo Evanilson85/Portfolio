@@ -1,0 +1,101 @@
+.project {
+  height: auto;
+  width: 100%;
+}
+
+.background {
+  /* height: 400px;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 1%; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionProjeto h1 {
+  font-size: 2rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.sectionProjeto p {
+  line-height: 1.5;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 300;
+  font-size: 1.2em;
+}
+.sectionProjeto hr {
+  height: 2px;
+  width: 100%;
+  border: none;
+  background: #ff760c;
+}
+.sectionProjeto {
+  width: 80%;
+  margin: 45px auto;
+  height: auto;
+  /* background-color: turquoise; */
+}
+.sectionProjeto h1,
+.sectionProjeto h2,
+.sectionProjeto p {
+  color: #fff;
+}
+.sectionProjeto img {
+  width: 100%;
+}
+.sectionProjeto button {
+  background: #ff760c;
+  color: #fff;
+  font-family: "Nunito Sans", sans-serif;
+  cursor: pointer;
+  height: 70px;
+  width: 200px;
+  font-size: 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  border: none;
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* margin-left: 10px;
+  opacity: 1;
+  transition: 0.2s linear; */
+}
+.sectionProjeto button:hover {
+  background: #c05b0e;
+  color: #fff;
+}
+
+.sectionProjeto .link {
+  display: flex;
+}
+.sectionProjeto .link img {
+  width: 30%;
+}
+@media (min-width: 768px) {
+  .sectionProjeto h1 {
+    font-size: 3rem;
+  }
+  .sectionProjeto p {
+    font-size: 1.5em;
+  }
+}
+/* .background img {
+  width: 100%;
+}
+
+@media (min-width: 836px) {
+  .background img {
+    max-width: 695px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .background img {
+    max-width: 900px;
+  }
+} */

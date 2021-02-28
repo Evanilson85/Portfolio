@@ -1,0 +1,84 @@
+.menuSocial {
+  /* background-color: rgb(19, 17, 17); */
+  position: fixed;
+  bottom: 0;
+  /* right: 0; */
+  left: 10%;
+  /* width: 10%; */
+  height: auto;
+  padding: 0%;
+  margin: 0;
+  list-style: none;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 2;
+
+  /* z-index: 3;
+  transform: rotate(90deg);
+  bottom: -75px;
+  left: 50%; */
+}
+
+.menuSocial li a {
+  /* color: rgb(248, 248, 248); */
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.menuSocial li {
+  /* transform: rotate(-90deg); */
+  width: 30px;
+}
+.menuSocial li a img {
+  width: 100%;
+  margin: 10px 0;
+}
+.menuSocial .teste svg {
+  stroke-width: 20px;
+  /* stroke: #fafafa; */
+  width: 130%;
+  height: 100%;
+  stroke-dashoffset: 1000;
+  stroke-dasharray: 1000;
+  animation: svganima 0.9s ease-in-out forwards alternate-reverse;
+  animation-iteration-count: 2;
+  transition: 0.1s linear;
+  margin: 10px auto;
+}
+
+.menuSocial .teste svg:hover path {
+  fill: #ff760c;
+  width: 120%;
+}
+@keyframes svganima {
+  0% {
+    stroke-dashoffset: 1000;
+    fill: #ff760c;
+    stroke-width: 30px;
+  }
+  70% {
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    fill: #ededed;
+    stroke-width: 2px;
+    width: 100%;
+  }
+}
+.menuSocial .hr {
+  background-color: #ff760c;
+  height: 140px;
+  width: 5%;
+}
+
+.menuSocial color:hover path {
+  fill: #ff760c;
+}
+@media (min-width: 768px) {
+  .menuSocial {
+    display: flex;
+  }
+}

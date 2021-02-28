@@ -1,0 +1,39 @@
+.about {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.about hr {
+  height: 2px;
+  width: 100%;
+  border: none;
+  background: #ff760c;
+}
+.about h2,
+.about p {
+  color: #ffff;
+}
+
+.about p {
+  line-height: 1.5;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 300;
+  font-size: 1.2em;
+}
+
+.about strong {
+  color: #ff760c;
+  font-size: 1em;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+@media (min-width: 768px) {
+  .about {
+    height: 500px;
+  }
+  .about p {
+    font-size: 1.3em;
+  }
+}
